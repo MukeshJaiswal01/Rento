@@ -1,0 +1,54 @@
+
+body{
+    background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    color: black;
+    font-size: 40px;;
+    font-weight: bolder;
+}
+
+
+
+.d1{
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+.d2{
+    margin-right: 200px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    
+   
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:skyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: skyblue}
+  
+  .button:active {
+    background-color:skyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
